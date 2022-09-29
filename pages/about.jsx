@@ -10,7 +10,7 @@ const About = () => {
   return (
     <>
       <Navbar />
-      <div className="bg-gray-800/30  pt-20">
+      <div className="bg-whitw pt-20">
         <div className="p-10 m-5  ">
           <h1 className="flex justify-center tracking-widest text-2xl uppercase underline py-2 px-5 font-semibold ">
             about seywus technologies
@@ -76,7 +76,7 @@ const About = () => {
                 </Link>
 
                 <Link href="">
-                  <a className="shadow-lg shadow-gray-300 rounded-full py-2 px-2 cursor-pointer hover:scale-105 ease-in duration-300">
+                  <a className="shadow-lg hover:text shadow-gray-300 rounded-full py-2 px-2 cursor-pointer hover:scale-105 ease-in duration-300">
                     <BsTwitter />
                   </a>
                 </Link>
